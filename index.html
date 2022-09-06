@@ -9,7 +9,7 @@
   </head>
   <body>
     <header>
-      <h2>Header Logo</h2>
+      <h3>Header Logo</h3>
       <ul>
         <li>Header Link One</li>
         <li>Header Link Two</li>
@@ -17,32 +17,48 @@
       </ul>
     </header>
     <div class="hero">
-      <h3>This website is awesome</h3>
-      <p>
-        This website has some subtext that goes here under the main title. It's
-        a smaller font and the color is lower contrast.
-      </p>
-      <button>Sign Up</button>
-      <img src="#" alt="This is a placeholder image" />
+      <div class="hero-info">
+        <h4 id="awesome">This website is awesome</h4>
+        <p>
+          This website has some subtext that goes here under the main title.
+          It's a smaller font and the color is lower contrast.
+        </p>
+        <button>Sign Up</button>
+      </div>
+      <div class="hero-right">
+        <img
+          class="hero-image"
+          src="https://loremflickr.com/640/360"
+          alt="This is a placeholder image"
+        />
+      </div>
     </div>
     <div class="content">
-      <h3>Some random information.</h3>
+      <h3 id="cards-title">Some random information.</h3>
       <div class="cards">
         <div class="card">
-          <img src="" alt="" />
-          <p>This is some subtext under an illustration or image</p>
+          <img src="https://loremflickr.com/200/200" alt="" />
+          <p class="card-info">
+            This is some subtext under an illustration or image
+          </p>
         </div>
         <div class="card">
-          <img src="" alt="" />
-          <p>This is some subtext under an illustration or image</p>
+          <img src="https://loremflickr.com/200/200" alt="" />
+          <p class="card-info">
+            This is some subtext under an illustration or image
+          </p>
         </div>
         <div class="card">
-          <img src="" alt="" />
-          <p>This is some subtext under an illustration or image</p>
+          <img src="https://loremflickr.com/200/200" alt="" />
+          <p class="card-info">
+            This is some subtext under an illustration or image
+          </p>
         </div>
         <div class="card">
-          <img src="" alt="" />
-          <p>This is some subtext under an illustration or image</p>
+          <img src="https://loremflickr.com/200/200" alt="" />
+          <p class="card-info">
+            This is some subtext under an illustration or image
+          </p>
         </div>
       </div>
     </div>
@@ -52,23 +68,23 @@
         just filling up space, or maybe people will actually read it. Who knows?
         All I know is that it looks nice.
       </p>
-      <h3>-Thor, God of Thunder</h3>
+      <h3 id="author">-Thor, God of Thunder</h3>
     </div>
     <div class="call-to-action">
       <div class="blue-card">
         <div class="left-card">
-          <h3>Call to Action! It's Time!</h3>
+          <h4>Call to Action! It's Time!</h4>
           <p>
             Sign up for our product by clicking that button right over there!
           </p>
         </div>
         <div class="right-card">
-          <button>Sign Up</button>
+          <button id="card-button">Sign Up</button>
         </div>
       </div>
     </div>
     <footer>
-      <p>Copyright &copy; MoonCats 2022</p>
+      <MoonCats>Copyright &copy; <span>MoonCats 2022</span></p>
     </footer>
   </body>
 </html>

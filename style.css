@@ -16,3 +16,145 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+
+header {
+  outline: 3px solid red;
+  display: flex;
+  justify-items: space-between;
+  background-color: var(--dark-bg);
+  color: var(--white);
+}
+
+ul {
+  outline: 2px solid red;
+  display: flex;
+}
+
+li {
+  list-style: none;
+  margin: 0 8px;
+}
+
+.hero {
+  outline: 2px solid red;
+  display: flex;
+  background-color: var(--dark-bg);
+  color: var(--white);
+  padding: 100px 100px;
+}
+
+.hero-info {
+  outline: 2px solid red;
+  max-width: 500px;
+  color: var(--secondary-text);
+  font-size: 0.8rem;
+}
+
+#awesome {
+  font-size: 2.7rem;
+  color: var(--white);
+}
+
+.hero-image {
+  border-radius: 3px;
+}
+
+button {
+  background-color: var(--button-color);
+  color: var(--secondary-text);
+  border: none;
+  border-radius: 8px;
+  padding: 10px 30px;
+  margin-top: 10px;
+}
+
+.content {
+  display: block;
+}
+
+#cards-title {
+  text-align: center;
+  font-size: 1.6rem;
+  padding: 20px;
+}
+
+.cards {
+  outline: 1px solid red;
+  display: flex;
+  padding: 0 300px;
+  margin-bottom: 30px;
+}
+
+.card img {
+  display: flex;
+  border: 5px solid var(--button-color);
+  border-radius: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 210px;
+  outline: 1px solid red;
+}
+
+.card-info {
+  font-size: 0.7rem;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.quote {
+  background-color: var(--secondary-text);
+  padding: 100px 450px;
+}
+
+#quote {
+  outline: 1px solid red;
+  font-size: 1.4rem;
+  font-style: italic;
+  font-color: var(--dark-bg);
+}
+
+#author {
+  text-align: right;
+  color: var(--dark-bg);
+}
+
+.call-to-action {
+  outline: 1px solid red;
+  padding: 150px;
+}
+
+.blue-card {
+  background-color: var(--button-color);
+  display: flex;
+  text-align: left;
+  padding: 100px 0;
+  border-radius: 12px;
+  color: var(--white);
+}
+
+.left-card {
+  width: 700px;
+}
+
+.right-card {
+}
+
+#card-button {
+  border: 3px solid var(--white);
+}
+
+footer {
+  text-align: center;
+  background-color: var(--dark-bg);
+  color: var(--white);
+  padding: 25px;
+  font-size: 18px;
+}
+
+span {
+  margin: 8px;
+}
